@@ -6,7 +6,7 @@ import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
 import {
   IconGitHub,
-  IconMediarAI,
+  IconLlama,
   IconNextChat,
   IconSeparator,
   IconVercel
@@ -30,10 +30,10 @@ async function UserOrLogin() {
         </>
       ) : (
         <Link href="/new" rel="nofollow">
-          <IconMediarAI className="size-6 mr-2 dark:hidden" />
+          <IconLlama className="size-6 mr-2 dark:hidden" />
           {/* <IconNextChat className="size-6 mr-2 dark:hidden" inverted /> */}
           {/* <IconNextChat className="hidden size-6 mr-2 dark:block" /> */}
-          <IconMediarAI className="hidden size-6 mr-2 dark:block" />
+          <IconLlama className="hidden size-6 mr-2 dark:block" />
         </Link>
       )}
       <div className="flex items-center">

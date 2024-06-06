@@ -1,6 +1,6 @@
 'use client'
 
-import { IconMediarAI, IconOpenAI, IconUser } from '@/components/ui/icons'
+import { IconLlama, IconOpenAI, IconUser } from '@/components/ui/icons'
 import { cn } from '@/lib/utils'
 import { spinner } from './spinner'
 import { CodeBlock } from '../ui/codeblock'
@@ -38,7 +38,7 @@ export function BotMessage({
     <div className={cn('group relative flex items-start md:-ml-12', className)}>
       <div className="flex size-[24px] shrink-0 select-none items-center justify-center rounded-md border bg-primary text-primary-foreground shadow-sm">
         {/* <IconOpenAI /> */}
-        <IconMediarAI />
+        <IconLlama />
 
       </div>
       <div className="ml-4 flex-1 space-y-2 overflow-hidden px-1">
@@ -104,7 +104,7 @@ export function BotCard({
         )}
       >
         {/* <IconOpenAI /> */}
-        <IconMediarAI />
+        <IconLlama />
 
       </div>
       <div className="ml-4 flex-1 pl-2">{children}</div>
@@ -129,7 +129,7 @@ export function SpinnerMessage() {
     <div className="group relative flex items-start md:-ml-12">
       <div className="flex size-[24px] shrink-0 select-none items-center justify-center rounded-md border bg-primary text-primary-foreground shadow-sm">
         {/* <IconOpenAI /> */}
-        <IconMediarAI />
+        <IconLlama />
       </div>
       <div className="ml-4 h-[24px] flex flex-row items-center flex-1 space-y-2 overflow-hidden px-1">
         {spinner}

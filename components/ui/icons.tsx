@@ -476,7 +476,7 @@ function IconChevronUpDown({
   )
 }
 
-function IconMediarAI({ className, ...props }: React.ComponentProps<'svg'>) {
+function IconLlama({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <svg
       fill="currentColor"
@@ -486,7 +486,7 @@ function IconMediarAI({ className, ...props }: React.ComponentProps<'svg'>) {
       className={cn('size-4', className)}
       {...props}
     >
-      <title>MediarAI icon</title>
+      <title>Llama3 icon</title>
       <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none" />
       <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
@@ -521,5 +521,5 @@ export {
   IconUsers,
   IconExternalLink,
   IconChevronUpDown,
-  IconMediarAI
+  IconLlama
 }
